@@ -30,7 +30,7 @@ int main() {
     scanf(" %d", &populacao1);
 
     printf("Digite a Área da Cidade:\n");
-    scanf(" %,2f", &area1);
+    scanf(" %.2f", &area1);
 
     printf("Digite o PIB da Cidade\n");
     scanf(" %.2f", &pib1);
@@ -50,20 +50,41 @@ int main() {
     printf("Digite o nome da Cidade. Em caso de nome composto, digitar apenas o primeiro nome, ou tudo junto, sem espaços.\n");
     scanf(" %s", &cidade2);
     
-    printf("Digite o número de habitantes da cidade:");
+    printf("Digite o número de habitantes da cidade:\n");
     scanf(" %d", &populacao2);
 
-    printf("Digite a área da Cidade:");
+    printf("Digite a área da Cidade:\n");
     scanf(" %.2f", &area2);
 
-    printf("Digite o PIB da Cidade:");
+    printf("Digite o PIB da Cidade:\n");
     scanf(" %.2f", &pib2);
 
-    printf("Digite o número de Pontos Turísticos da Cidade:");
+    printf("Digite o número de Pontos Turísticos da Cidade:\n");
     scanf(" %d", &ponto2);
 
     // Finalizado o cadastro das cartas. Mostrarei as informações na tela com printf.
-    // Carta 1
+
+    printf("CARTA 1\n");
+    printf("Estado: %c\n", estado1);
+    printf("Código da carta: %s\n", codigo1);
+    printf("Cidade: %s\n", cidade1);
+    printf("População: %d habitantes\n", populacao1);
+    printf("Área: %.2f km²\n", area1);
+    printf("PIB: %.2f bilhões de reais\n", pib1);
+    printf("Número de Pontos Turísticos: %d\n", ponto1);
+
+    // Informações da Carta 2 com printf.
+
+    printf("CARTA 2\n");
+    printf("Estado: %c\n", estado2);
+    printf("Código da carta: %s\n", codigo2);
+    printf("Cidade: %s\n", cidade2);
+    printf("População: %d\n", populacao2);
+    printf("Área: %.2f km²\n", area2);
+    printf("PIB: %.2f milhões de reais\n", pib2);
+    printf("Número de Pontos Turísticos: %d\n");
+
+    printf("FIM DO DESAFIO. ATÉ A PRÓXIMA!\n");
 
     return 0;
 }
