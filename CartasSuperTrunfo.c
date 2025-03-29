@@ -12,7 +12,7 @@ int main() {
     float area1, area2;
     float pib1, pib2;
     int ponto1, ponto2;
-    
+
     // Instruções para o usuário inserir os dados de cada carta com printf. Leitura e armazenamento dos dados nas variáveis com a função scanf.
     // Aplicação dos especificadores de formato.
 
@@ -30,14 +30,14 @@ int main() {
     scanf(" %d", &populacao1);
 
     printf("Digite a Área da Cidade:\n");
-    scanf(" %.2f", &area1);
+    scanf(" %f", &area1);
 
-    printf("Digite o PIB da Cidade\n");
-    scanf(" %.2f", &pib1);
+    printf("Digite o PIB da Cidade:\n");
+    scanf(" %f", &pib1);
 
     printf("Digite o número de pontos turísticos da Cidade:\n");
     scanf(" %d", &ponto1);
-      
+
     // Instruções para a Carta 2.
 
     printf("Cadastro da Carta 2\n");
@@ -49,15 +49,15 @@ int main() {
 
     printf("Digite o nome da Cidade. Em caso de nome composto, digitar apenas o primeiro nome, ou tudo junto, sem espaços.\n");
     scanf(" %s", &cidade2);
-    
+
     printf("Digite o número de habitantes da cidade:\n");
     scanf(" %d", &populacao2);
 
     printf("Digite a área da Cidade:\n");
-    scanf(" %.2f", &area2);
+    scanf(" %f", &area2);
 
     printf("Digite o PIB da Cidade:\n");
-    scanf(" %.2f", &pib2);
+    scanf(" %f", &pib2);
 
     printf("Digite o número de Pontos Turísticos da Cidade:\n");
     scanf(" %d", &ponto2);
@@ -87,4 +87,5 @@ int main() {
     printf("FIM DO DESAFIO. ATÉ A PRÓXIMA!\n");
 
     return 0;
+
 }
