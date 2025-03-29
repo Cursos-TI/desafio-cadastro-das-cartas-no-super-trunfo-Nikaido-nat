@@ -64,6 +64,8 @@ int main() {
 
     // Finalizado o cadastro das cartas. Mostrarei as informações na tela com printf.
 
+    printf("Desafio Cartas Super Trunfo\n");
+
     printf("CARTA 1\n");
     printf("Estado: %c\n", estado1);
     printf("Código da carta: %s\n", codigo1);
@@ -81,8 +83,8 @@ int main() {
     printf("Cidade: %s\n", cidade2);
     printf("População: %d\n", populacao2);
     printf("Área: %.2f km²\n", area2);
-    printf("PIB: %.2f milhões de reais\n", pib2);
-    printf("Número de Pontos Turísticos: %d\n");
+    printf("PIB: %.2f bilhões de reais\n", pib2);
+    printf("Número de Pontos Turísticos: %d\n", ponto2);
 
     printf("FIM DO DESAFIO. ATÉ A PRÓXIMA!\n");
 
