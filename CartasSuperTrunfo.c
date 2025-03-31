@@ -6,8 +6,8 @@
 int main() {
     // Declarando as variáveis.
     char estado1, estado2; 
-    char codigo1[20], codigo2[20];
-    char cidade1[50], cidade2[50];
+    char codigo1[20], codigo2[20];          // Strings para armazenar os códigos.
+    char cidade1[50], cidade2[50];         // Strings para armazenar os nomes,
     int populacao1, populacao2;
     float area1, area2;
     float pib1, pib2;
@@ -21,10 +21,10 @@ int main() {
     scanf(" %c", &estado1);
 
     printf("Digite um código de três dígitos, inicando com a letra escolhida acima, seguida de dois números:\n");
-    scanf(" %s", &codigo1);
+    scanf(" %s", codigo1); // Não é necessário o uso de '&' para leitura de string.
 
     printf("Digite o nome da Cidade. Em caso de nome composto, digitar apenas o primeiro nome, ou tudo junto, sem espaços.\n");
-    scanf(" %s", &cidade1);
+    scanf(" %s", cidade1);
 
     printf("Digite o número de habitantes da Cidade:\n");
     scanf(" %d", &populacao1);
@@ -45,10 +45,10 @@ int main() {
     scanf(" %c", &estado2);
 
     printf("Digite um código de três dígitos, começando com a letra escolhida acima:\n");
-    scanf(" %s", &codigo2);
+    scanf(" %s", codigo2);
 
     printf("Digite o nome da Cidade. Em caso de nome composto, digitar apenas o primeiro nome, ou tudo junto, sem espaços.\n");
-    scanf(" %s", &cidade2);
+    scanf(" %s", cidade2);
 
     printf("Digite o número de habitantes da cidade:\n");
     scanf(" %d", &populacao2);
